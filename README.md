@@ -1,4 +1,2 @@
-# STMPL.github.io
-STMPL paper page
-
-Comming soon
+# STMPL
+This is the repository that contains source code for the [STMPL website](https://agafonov.STMPL.io).
