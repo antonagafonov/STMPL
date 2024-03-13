@@ -56,9 +56,9 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Anton Agafonov</a>,
+                <a href="https://scholar.google.com/citations?hl=en&user=IsFcrLcAAAAJ&view_op=list_works&gmla=AILGF5WABKrCnUQBT0N6J6ehNV3hROKs-t_qseM-xUtMiD8w9sXD6K1hTGOCzu6aAyVe3WZnncoVRylOL7id9QRS" target="_blank">Anton Agafonov</a>,
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Lihi Zelnik-Manor</a>
+                  <a href="https://scholar.google.co.il/citations?user=E_ejWvYAAAAJ&hl=en" target="_blank">Lihi Zelnik-Manor</a>
                   </span>
                   </div>
 
@@ -92,7 +92,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/antonagafonov/STMPL-Human-Soft-Tissue-Simulation/tree/main" target="_blank"
+                    <a href="https://github.com/antonagafonov/STMPL-Human-Soft-Tissue-Simulation" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -128,22 +128,20 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser Image -->
 <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <!-- Your image here -->
+        <img src="static/images/STMPL-banner.png" alt="Descriptive text about the image" style="width: 100%;">
+        <h2 class="subtitle has-text-centered">
+            STMPL able to simulate the soft tissue deformation of human bodies in real time is demonstrated through interactions with external interactions of varying shapes. We illustrate the capabilities of the STMPL model when simulating contact with grasping hands and 'ECCV' block letters, showcasing the detailed and realistic deformation such interactions produce. 
+        </h2>
+      </div>
     </div>
-  </div>
-</section>
-<!-- End teaser video -->
+  </section>
+  <!-- End teaser image -->
+  
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -153,7 +151,9 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            In various applications, such as virtual reality and gaming, simulating the deformation of soft tissues in the human body during interactions with external objects is essential. Traditionally, Finite Element Methods (FEM) have been employed for this purpose, but they tend to be slow and resource-intensive. In this paper, we propose a unified representation of human body shape and soft tissue with a data-driven simulator of non-rigid deformations. This approach enables rapid simulation of realistic interactions.
+
+            Our method builds upon the SMPL model, which generates human body shapes considering rigid transformations. We extend SMPL by incorporating a soft tissue layer and an intuitive representation of external forces applied to the body during object interactions. Specifically, we mapped the 3D body shape and soft tissue and applied external forces to 2D UV maps. Leveraging a UNET architecture designed for 2D data, our approach achieves high-accuracy inference in real time. Our experiment shows that our method achieves plausible deformation of the soft tissue layer, even for unseen scenarios.
           </p>
         </div>
       </div>
