@@ -1,0 +1,2 @@
+- Add titles to all figures
+- Add simulated deformations sequence with higer frame rate 24 fps add 50 between each 1 N
